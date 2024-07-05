@@ -13,7 +13,7 @@
 
   span {
     display: flex;
-    gap: 20px;
+    gap: 25px;
     justify-content: center;
 
     a {
@@ -75,4 +75,6 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  /* had to make sure paragraph was centered too, not sure why */
+  align-items: center;
 }
