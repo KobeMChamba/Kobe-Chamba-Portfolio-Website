@@ -14,7 +14,7 @@ function Projects() {
           h3={"Webdev"}
           p3={"First foray into Web development at Northwestern"}
         />
-        <ProjectCard
+        {/* <ProjectCard
           src={viberr}
           link="https://github.com/KobeMChamba/webdev-labs/tree/main"
           h3={"Webdev"}
@@ -25,7 +25,7 @@ function Projects() {
           link="https://github.com/KobeMChamba/webdev-labs/tree/main"
           h3={"Webdev"}
           p3={"First foray into Web development at Northwestern"}
-        />
+        /> */}
       </div>
     </section>
   );
