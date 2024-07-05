@@ -9,6 +9,9 @@
 
   .hero {
     max-width: 200px;
+    /* max-height: 150px; */
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the element and maintains aspect ratio */
   }
 
   span {
