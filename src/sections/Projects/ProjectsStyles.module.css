@@ -17,6 +17,8 @@
     transition: transform 200ms ease-in-out;
   }
 
+  
+
   a:hover {
     transform: scale(1.05);
   }
@@ -34,6 +36,8 @@
     flex-direction: wrap;
     justify-content: space-evenly;
     padding: 0 30px;
-    min-height: 900px;
+  }
+  a {
+    min-height: 750px;
   }
 }
