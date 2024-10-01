@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ProjectsStyles.module.css";
-import viberr from "../../assets/viberr.png";
+import NUwebdev from "../../assets/NUWebdev.jpeg"
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -9,7 +9,7 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
+          src={NUwebdev}
           link="https://github.com/KobeMChamba/webdev-labs/tree/main"
           h3={"Webdev"}
           p3={"First foray into Web development at Northwestern"}
