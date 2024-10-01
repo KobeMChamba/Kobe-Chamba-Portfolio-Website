@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+}
 
   img {
     max-width: 250px;
@@ -34,5 +35,6 @@
     flex-direction: wrap;
     justify-content: space-evenly;
     padding: 0 30px;
+    min-height: 900px; /* Ensure all cards have consistent height */
   }
 }
