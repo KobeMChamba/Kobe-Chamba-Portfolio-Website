@@ -2,42 +2,27 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: space-between;
-  /* Ensures the content is spaced evenly */
-}
 
-img {
-  max-width: 250px;
-  align-self: center;
-  background-color: var(--project-card-bg);
-  border-radius: 20px;
-}
+  img {
+    max-width: 250px;
+    align-self: center;
+    background-color: var(--project-card-bg);
+    border-radius: 20px;
+  }
 
-a {
-  width: 100%; /* Ensures the link fills the available width */
-  text-decoration: none;
-  color: #222;
-  transition: transform 200ms ease-in-out;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  /* Ensures the image and description are aligned vertically */
-  min-height: 300px; /* Adjust height based on your preference */
-}
+  a {
+    width: fit-content;
+    text-decoration: none;
+    color: 222;
+    transition: transform 200ms ease-in-out;
+  }
 
-a:hover {
-  transform: scale(1.05);
-}
+  
 
-h3 {
-  margin-top: 10px;
-  font-size: 1.2rem;
+  a:hover {
+    transform: scale(1.05);
+  }
 }
-
-p {
-  margin-top: auto; /* Ensures the description sticks to the bottom of the card */
-}
-
 .projectsContainer {
   display: flex;
   flex-direction: column;
@@ -45,11 +30,14 @@ p {
   gap: 30px;
 }
 
-@media (min-width: 800px) {
+@media (width >= 800px) {
   .projectsContainer {
     flex-direction: row;
-    flex-wrap: wrap; /* Allows cards to wrap properly */
+    flex-direction: wrap;
     justify-content: space-evenly;
     padding: 0 30px;
+  }
+  p3 {
+    min-height: 500px;
   }
 }
