@@ -17,8 +17,6 @@
     transition: transform 200ms ease-in-out;
   }
 
-  
-
   a:hover {
     transform: scale(1.05);
   }
@@ -33,11 +31,10 @@
 @media (width >= 800px) {
   .projectsContainer {
     flex-direction: row;
-    flex-direction: wrap;
+    flex-direction: wrap; /* might need to be fixed */
     justify-content: space-evenly;
     padding: 0 30px;
+    align-items: flex-start;
   }
-  p3 {
-    min-height: 500px;
-  }
+
 }
